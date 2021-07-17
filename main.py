@@ -26,7 +26,7 @@ def show_data(cn):
                 nrl = tk.Label(w, text="New Recovered Cases: " + str(nr))
                 nrl.pack()
     except:
-        print("Try again after a few minutes, the json file is updating......")
+        print("Try again after a few minutes, the json file is up=dating......")
         return "l"
 
 
